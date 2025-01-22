@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,400italic,700,800");
 
 /*
 	Highlights by HTML5 UP
@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #6f7577;
-		font-family: "Raleway", "Helvetica", sans-serif;
+		font-family: "Barlow", "Helvetica", sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -158,7 +158,6 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -291,14 +290,6 @@ input, select, textarea {
 			.container {
 				width: 80% !important;
 				max-width: 100% !important;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.container {
-				width: 100% !important;
 			}
 
 		}
@@ -1931,7 +1922,7 @@ input, select, textarea {
 	header p {
 		color: #a8b0b3;
 		letter-spacing: 0.05em;
-		text-transform: uppercase;
+
 	}
 
 	header h1 + p {
@@ -2744,13 +2735,13 @@ input, select, textarea {
 		}
 
 		.main .container {
-			padding: 5em 2.5em 8em 2.5em ;
+			padding: 2.5em 2.5em 2.5em 2.5em ;
 			background: white;
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
 			.main .container:before {
-				min-height: calc( 100vh - 13em);
+				/* min-height: calc( 100vh - 13em); */
 				content: '';
 				display: inline-block;
 				vertical-align: middle;
@@ -2847,7 +2838,7 @@ input, select, textarea {
 			bottom: 0;
 			left: 50%;
 			margin-left: -17.5em;
-			padding: 2.5em;
+			padding: 1em;
 			position: absolute;
 		}
 
@@ -2869,8 +2860,8 @@ input, select, textarea {
 	}
 
 		#footer .container {
-			padding: 5em 2.5em 3em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			padding: 5em 2.5em 3em 1.5em ;
+			background: #B7B09C;
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -2944,7 +2935,7 @@ input, select, textarea {
 			}
 
 			.main .container {
-				padding: 3em 3em 8em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 				.main .container:before {
