@@ -1,19 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "../customer-hub/customer-hub"
-		},
-		{
-			"name": "platform-ingress-proxy",
-			"path": "../platform-ingress-proxy"
-		},
-		{
-			"name": "customer-lambda-persisted-event-query",
-			"path": "../customer-lambda-persisted-event-query"
-		},
-		{
-			"name": "customer-msm-cf-frontworker",
-			"path": "../customer-msm-cf-frontworker"
+			"path": "."
 		}
 	],
 	"settings": {}
