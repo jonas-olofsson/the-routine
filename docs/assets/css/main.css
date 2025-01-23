@@ -2168,6 +2168,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		color: #B7B09C;
 	}
 
 		.icon:before {
@@ -2782,6 +2783,13 @@ input, select, textarea {
 			.main .goto-next:hover {
 				background-color: rgba(144, 144, 144, 0.15);
 			}
+			.main .image.column {
+				float: left;
+				width: 25%;
+				padding: 3px 3px 3px 3px;
+				background: #B7B09C;
+			}
+			
 
 /* Header */
 
@@ -2849,7 +2857,7 @@ input, select, textarea {
 			#header .container .button {
 				min-width: 12em;
 			}
-
+			
 /* Footer */
 
 	#footer {
@@ -2867,7 +2875,7 @@ input, select, textarea {
 
 		#footer footer {
 			bottom: 2em;
-			color: rgba(255, 255, 255, 0.5);
+			color: #B7B09C;
 			left: 0;
 			position: absolute;
 			text-align: center;
